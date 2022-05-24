@@ -41,7 +41,7 @@ namespace FunctionAppPolly
               .Accept
               .Add(new MediaTypeWithQualityHeaderValue("application/json"));
 
-            HttpResponseMessage response = await httpClient.GetAsync("a7b8d980-3925-41f3-a9c2-60dfd035be74?id="+ stringGuid);
+            HttpResponseMessage response = await httpClient.GetAsync("c8d9b8c0-46a1-43f9-a4b6-805390fa6ca5?id=" + stringGuid);
 
             if (response != null && response.IsSuccessStatusCode)
             {
